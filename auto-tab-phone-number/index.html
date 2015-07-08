@@ -5,10 +5,13 @@
   <link rel="stylesheet" type="text/css" href="global.css">
 </head>
 <body>
-<input class="inputs" maxlength="3"/>
-<input class="inputs" maxlength="3"/>
-<input class="inputs" maxlength="4"/>
+  <form name="phoneNumber">
+<input class="inputs" name="areacode" onKeyup="autotab(this, document.phoneNumber.middle)" maxlength="3"/>
+<input class="inputs" name="middle" onKeyup="autotab(this, document.phoneNumber.end)" maxlength="3"/>
+<input class="inputs" name="end" maxlength="4"/>
+
 <button type="submit">done</button>
+</from>
 
 
   <script type="text/javascript" src="global.js"></script>
