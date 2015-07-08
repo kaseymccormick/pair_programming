@@ -1,23 +1,12 @@
-// if (this.value.length == this.maxLength) {
-//   var $next = $(this).next('.inputs');
-//   if ($next.length)
-//       $(this).next('.inputs').focus();
-//   else
-//       $(this).blur();
-// }
-
-// (".inputs").keyup(function () {
-//        if (this.value.length == this.maxLength) {
-//          (this).next('.inputs').focus();
-//        }
-//  });
-
 // once hit max length of input feild move to next input feild.
 
-
+                  // this  middle
 function autotab(current,to){
+  // if     this.getattribut and
     if (current.getAttribute && 
+      // this.value.length is equal to this.getattribute(maxlength)
       current.value.length==current.getAttribute("maxlength")) {
+        // middle.focus
         to.focus() 
         }
 }
