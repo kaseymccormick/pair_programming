@@ -1,0 +1,326 @@
+body{
+  font-family: 'Rokkitt', serif;
+  padding:0px;
+  margin:0px;
+  color: #3C514F;
+}
+
+h1{
+  padding: 0px 30px 22px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h3 {
+  color:#6BA236;
+  font-family: Arial, sans-serif;
+  font-size:20px;
+  text-align:center;
+}
+
+p{
+  color:;
+  margin: 10px 36px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Rokkitt,;
+}
+
+#section1 #bar1{
+  background-color:#2C4947;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 60px;
+}
+
+#section1 #bar1 #logo{
+  width:160px;
+  padding: 10px;
+  position: inherit;
+}
+
+#section1 #hamburger {
+  position: inherit;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+#landscape_layers{
+  
+}
+
+#landscape_layers #mountains{              
+  background-image:url("images/landscapes/mountains.jpg");
+  width: 300px;
+  height: 300px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+#landscape_layers #logo{
+  width: 45%;
+  position: relative;
+  left: 100px;
+  z-index: 20;
+}
+
+#landscape_layers #mountains{
+  width: 140%;
+  position: absolute;
+  left: -140px;
+}
+
+#bar3{
+  background-color:#516261;
+  width:100%;
+  position:relative;
+}
+
+#bar3 img{
+  width: 70%;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  padding: 5px;
+}
+
+#register_layers{
+  padding-top:80px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#bird{
+  position: relative;
+  left: 110px;
+  width: 50px;
+  top: -25px;
+}
+
+#lines{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}
+
+#register_layers a{
+  color: white;
+  background-color: #6BA236;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#register_btn{
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+
+em{
+  font-size: 68px;
+  font-style: inherit;
+  color: #6BA236;
+  margin-left: 45px;
+}
+
+.track img{
+  position: relative;
+  margin: 0px auto;
+  display: block;
+  width: 60%;
+  
+}
+
+.track ul{
+  font-family:Arial, sans-serif;
+  list-style-type: none;
+  color: #88511C;
+  line-height: 2;
+  text-align: center;
+  display: inline;
+  font-size:15px;
+}
+
+.track hr{
+  border-top: 1px solid #ccc;
+  margin: 70px 0px 40px ;
+}
+
+#divider hr{
+  border: 6px dashed #ccc;
+  margin: 100px 0px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+#section4 {
+  background-image:url("images/board.jpg");
+  padding-bottom: 250px;
+  width: 100%;
+  padding: 0px 3px 250px;
+}
+
+#section4 #es{
+  width: 75%;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+  top: 100px;
+  font-family: 'Rokkitt', serif;
+}
+
+#section4 h1{
+  color: #EDC442;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top: 150px;
+}
+
+#section4 h2{
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  display: block;
+  font-family: 'Rokkitt', serif;
+  margin: 0px auto;
+  position: relative;
+  top: 100px;
+}
+
+#section4 .time{
+  width: 80px;
+  height: 80px;
+  border: 3px solid #D1592D;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  margin: 0px auto;
+}
+
+#section4 .time h1{
+  color:white;
+  margin: 0px;
+  top: 6px;  
+}
+
+#section4 .time h1 span{
+  margin-left: -10px; 
+}
+
+#section4 .time h2{
+  position:relative;
+  top:-23px;
+}
+
+#section4 .event {
+  padding-top: 80px;
+  position: relative;
+  top: 100px;
+}
+
+.event h3{
+  color:white;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.event p{
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  display:block;
+  margin:0px 20px;
+  text-align: center;
+  line-height: 2;
+  font-family:arial;
+}
+#campfire img{
+  width: 75%;
+  display: block;
+  position: relative;
+  margin: 170px auto -30px;
+}
+
+#section5{
+  background-color: #caecf9;
+  width: 102%;
+}
+
+#section5 #faq{
+  display: block;
+  margin: 0px auto 84px;
+  width: 55%;
+  position: relative;
+  top: 60px;
+}
+
+#section5 ul{
+  color: #88511C;
+  margin-left: 25px;
+  font-size: 23px;
+  line-height: 2.5;
+  list-style-type:none;
+}
+
+#section5 li.plus{
+  background: url("images/plus.png") no-repeat left top 16px/20px;
+  padding-left: 35px;
+}
+
+#treehouse {
+  position: relative;
+  width: 95%;
+  margin: 0px auto;
+  display: block;
+}
+
+#section6{
+  background: url("images/footer.png") repeat-x bottom center / 1700px 1472px;
+  overflow: hidden;
+  height: 700px;
+}
+
+#section6 #hill{
+  background-attachment: scroll;
+  position: relative;
+  left: -560px;
+}
+
+#section6 #signpost{
+  position: relative;
+  margin: 0px auto;
+  display: block;
+  bottom: -297px;
+  width: 60%;
+  z-index: 5;
+}
+
+#section6 a{
+  display: inline-block;
+  width: 61%;
+  height: 15%;
+  border-radius: 6px;
+  position: relative;
+  top: -523px;
+  left: 85px;
+  z-index: 10;
+}
