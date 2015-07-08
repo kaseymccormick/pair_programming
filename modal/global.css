@@ -5,3 +5,38 @@
 .hide {
   display: none;
 }
+
+#modal{
+  width: 450px;
+  background-color: #00A3E1;
+  height: 450px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  border-radius: 225px;
+  
+}
+
+h2{
+  text-align:center;
+  color:white;
+  font-family:arial;
+  position:relative;
+  top:40px;
+}
+
+#close{
+  color: white;
+  font-family: arial;
+  background-color: #00A3e1;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+p{
+  text-align:center;
+}
