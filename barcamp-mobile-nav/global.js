@@ -3,9 +3,11 @@ function showMenu(){
 }
 
 function hideMenu(){
-  document.getElementById("menu").style.top = -300 + "px";  
+  document.getElementById("menu").style.top = "-" + 300 + "px";  
 }
 
-document.getElementById("hamburger").onClick = showMenu
+hideMenu();
+
+document.getElementById("bar1").onclick = showMenu;
 
 document.getElementById("hamburger").ondblclick = hideMenu
