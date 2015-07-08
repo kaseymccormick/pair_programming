@@ -20,19 +20,23 @@
 // }
 
 function hideTabs1(){
-  document.getElementById("tab2Content").className += ' hide';
-  document.getElementById("tab3Content").className += ' hide';
+  document.getElementById("tab2Content").className = ' hide';
+  document.getElementById("tab3Content").className = ' hide';
+  document.getElementById("tab1Content").className = ' visible';
 }
 
 function hideTabs2(){
-  document.getElementById("tab1Content").className += ' hide';
-  document.getElementById("tab3Content").className += ' hide';
+  document.getElementById("tab1Content").className = ' hide';
+  document.getElementById("tab3Content").className = ' hide';
+  document.getElementById("tab2Content").className = ' visible';
 }
 
-function hideTab3(){
-  document.getElementById("tab1Content").className += ' hide';
-  document.getElementById("tab2Content").className += ' hide';
+function hideTabs3(){
+  document.getElementById("tab1Content").className = ' hide';
+  document.getElementById("tab2Content").className = ' hide';
+  document.getElementById("tab3Content").className = ' visible';
 }
+
 
 hideTabs1();
 

@@ -33,12 +33,16 @@ ul#tabs li a.selected {
   padding: 0.7em 0.3em 0.38em 0.3em; 
 }
 
-.tabContent { 
+.tabContent1, .tabContent2, .tabContent3  { 
   border: 1px solid #c9c3ba; 
   padding: 0.5em; 
   background-color: #f1f0ee; 
 }
 
-.tabContent.hide { 
+.hide { 
   display: none; 
+}
+
+.visible { 
+  display: block; 
 }
