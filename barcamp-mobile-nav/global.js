@@ -17,3 +17,6 @@ document.getElementById("hamburger").ondblclick = hideMenu;
 $("button").click(function(){
     $("p").toggleClass("main");
 });
+
+//syntax
+$(selector).toggleClass(classname,function(index,currentclass),switch)
