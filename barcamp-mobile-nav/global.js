@@ -10,4 +10,10 @@ hideMenu();
 
 document.getElementById("bar1").onclick = showMenu;
 
-document.getElementById("hamburger").ondblclick = hideMenu
+document.getElementById("hamburger").ondblclick = hideMenu;
+
+
+/// how do i get this to work....
+$("button").click(function(){
+    $("p").toggleClass("main");
+});

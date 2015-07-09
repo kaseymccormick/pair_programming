@@ -1,0 +1,22 @@
+body{
+  background-color:#ccc;
+}
+
+#header{
+  background-color:white;
+  height:120px;
+  padding:0px;
+  margin:0px;
+}
+
+li{
+  font-family:arial;
+  font-size:16px;
+  color:#e1e1e1;
+  float:left;
+  padding:5px 10px;
+  list-style-type:none;
+}
+#logo{
+  float:left;
+}
