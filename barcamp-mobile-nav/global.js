@@ -8,15 +8,15 @@ function hideMenu(){
 
 hideMenu();
 
-document.getElementById("bar1").onclick = showMenu;
+document.getElementById("adminicon").onclick = showMenu;
 
-document.getElementById("hamburger").ondblclick = hideMenu;
+document.getElementById("adminicon").ondblclick = hideMenu;
 
 
-/// how do i get this to work....
-$("button").click(function(){
-    $("p").toggleClass("main");
-});
-
-//syntax
-$(selector).toggleClass(classname,function(index,currentclass),switch)
+// /// how do i get this to work....
+// $("button").click(function(){
+//     $("p").toggleClass("main");
+// });
+//
+// //syntax
+// $(selector).toggleClass(classname,function(index,currentclass),switch)
